@@ -1,0 +1,22 @@
+# Local agent tooling – nesdilet
+.agents/
+skills-lock.json
+.DS_Store
+
+# Secrets – nikdy necommitovat
+.env
+
+# Generovane vystupy patri do remote storage, ne do gitu
+outputs/
+*.png
+*.mp4
+*.jpg
+*.webp
+
+# HF cache
+.hf_cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
